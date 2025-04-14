@@ -7,6 +7,9 @@ from inline_markdown import (
     extract_markdown_images,
     extract_markdown_links,
 )
+
+
+
 from textnode import TextNode, TextType
 
 class TestInlineMarkdown(unittest.TestCase):
@@ -188,6 +191,8 @@ class TestInlineMarkdown(unittest.TestCase):
             ],
             nodes,
         )
+
+
 
 if __name__ == "__main__":
     unittest.main()
